@@ -1,16 +1,13 @@
-/* #user-input {
-  width: 30%;
-} */
-
-#robogerfied-numbers {
+#output {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   border: solid thin;
 }
 
+/* Image from https://www.misterrogers.org/wp-content/uploads/2018/09/Pinchable-Neighborhood-Cropped-smaller.jpg*/
 .jumbotron {
-  font-family: Bookman, 'Times New Roman', Times, serif;
+  font-family: 'Bookman Old Style', 'Times New Roman', Times, serif;
   background-image: url("/img/neighborhood.jpg");
 }
 

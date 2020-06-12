@@ -44,9 +44,23 @@ Output: "Won't you be my neighbor?"
 ## Known Bugs
 * No known bugs.   
 
-## Setup/Installation Requirements
-* Clone this repository from GitHub.
-* Open the index.html file with your preffered browser to view the website, or use a code editor to view the code.
+## Setup/Installation Instructions
+#### Option 1
+View the GitHub pages site here: <https://sarakane.github.io/mr-roboger-neighborhood>
+
+#### Option 2
+To clone this repository from your command line you will need [Git](https://git-scm.com/) installed. First navigate in the command line to where you want to clone this repository. 
+
+Example:  
+```
+$ cd ~/Desktop
+```
+
+Then from your command line:
+```
+$ git clone https://github.com/sarakane/mr-roboger-neighborhood
+```
+Once the repository has been cloned, you can open index.html in your preferred web browser to view the site or open in your preferred code editor to view and edit the code.
 
 ## Technologies Used
 * Visual Studio Code (code editor)
@@ -55,4 +69,4 @@ Output: "Won't you be my neighbor?"
 * JavaScript/jQuery-3.5.1
 
 ## License
-This software is licensed under the MIT license. Copyright (c) 2020 Sara Kane.
+This software is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (c) 2020 Sara Kane.
