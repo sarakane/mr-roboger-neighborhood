@@ -5,3 +5,13 @@
 #output {
   margin-top: 10px;
 }
+
+.jumbotron {
+  font-family: Bookman, 'Times New Roman', Times, serif;
+  background-image: url("/img/neighborhood.jpg");
+}
+
+.jumbotron h1,.jumbotron p{
+  background-color: white;
+  width: max-content;
+}
