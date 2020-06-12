@@ -2,9 +2,22 @@
 function roboNumbers(number) {
   let returnNumbers = [];
   for(let i = 0; i <= number; i++){
-    returnNumbers.push(i);
+    if(checkIfContains1(i)){
+      returnNumbers.push("Beep!");
+    } else {
+      returnNumbers.push(i);
+    }
   }
   return returnNumbers.toString();
+}
+
+function checkIfContains1(number) {
+  for(const digit of number.toString()) {
+    if(digit === "1") {
+      return true;
+    }
+  }
+  return false;
 }
 
 //User Interface Logic
