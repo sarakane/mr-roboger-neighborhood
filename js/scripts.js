@@ -2,7 +2,9 @@
 function roboNumbers(number) {
   let returnNumbers = [];
   for(let i = 0; i <= number; i++){
-    if(checkIfContains2(i)){
+    if (checkIfContains3(i)){
+      returnNumbers.push("Won't you be my neighbor?");
+    } else if(checkIfContains2(i)) {
       returnNumbers.push("Boop!");
     } else if(checkIfContains1(i)) {
       returnNumbers.push("Beep!");
@@ -25,6 +27,15 @@ function checkIfContains1(number) {
 function checkIfContains2(number) {
   for(const digit of number.toString()) {
     if(digit === "2") {
+      return true;
+    }
+  }
+  return false;
+}
+
+function checkIfContains3(number) {
+  for(const digit of number.toString()) {
+    if(digit === "3") {
       return true;
     }
   }
