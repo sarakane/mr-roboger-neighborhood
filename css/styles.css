@@ -1,9 +1,12 @@
-#user-input {
+/* #user-input {
   width: 30%;
-}
+} */
 
-#output {
+#robogerfied-numbers {
   margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid thin;
 }
 
 .jumbotron {
@@ -14,4 +17,8 @@
 .jumbotron h1,.jumbotron p{
   background-color: white;
   width: max-content;
+}
+
+#beep-boop{
+  text-align: center;
 }
