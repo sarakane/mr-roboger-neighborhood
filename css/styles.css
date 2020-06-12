@@ -8,7 +8,7 @@
 /* Image from https://www.misterrogers.org/wp-content/uploads/2018/09/Pinchable-Neighborhood-Cropped-smaller.jpg*/
 .jumbotron {
   font-family: 'Bookman Old Style', 'Times New Roman', Times, serif;
-  background-image: url("/img/neighborhood.jpg");
+  background-image: url("../img/neighborhood.jpg");
 }
 
 .jumbotron h1,.jumbotron p{
