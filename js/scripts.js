@@ -1,18 +1,18 @@
 //Business Logic
 function roboNumbers(number) {
-  let returnNumbers = [];
+  const numbersArray = [];
   for(let i = 0; i <= number; i++){
     if (checkIfContains3(i)){
-      returnNumbers.push("Won't you be my neighbor?");
+      numbersArray.push("Won't you be my neighbor?");
     } else if(checkIfContains2(i)) {
-      returnNumbers.push("Boop!");
+      numbersArray.push("Boop!");
     } else if(checkIfContains1(i)) {
-      returnNumbers.push("Beep!");
+      numbersArray.push("Beep!");
     } else {
-      returnNumbers.push(i);
+      numbersArray.push(i);
     }
   }
-  return returnNumbers.toString();
+  return fixFormatting(numbersArray);
 }
 
 function checkIfContains1(number) {
@@ -40,6 +40,11 @@ function checkIfContains3(number) {
     }
   }
   return false;
+}
+
+function fixFormatting(input) {
+  const regex = /,/g;
+  return input.toString().replace(regex, ', ');
 }
 
 //User Interface Logic
