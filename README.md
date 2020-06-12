@@ -17,29 +17,29 @@ Exceptions are written from least to highest priority. For example:
 * 32 should be replaced with "Won't you be my neighbor?"
 
 ## Specifications
-Behavior: Program should return an error when input that is not a positive number is extered.
-Input: "apple"
-Output: Please enter a positive number
+Behavior: Program should return an error when input that is not a positive number is extered.  
+Input: "apple"  
+Output: Please enter a positive number  
 
-Behavior: The program returns a range of numbers from 0 to the users inputted number
-Input: "4"
-Output: "0, 1, 2, 3, 4"
+Behavior: The program returns a range of numbers from 0 to the users inputted number  
+Input: "4"  
+Output: "0, 1, 2, 3, 4"  
 
-Behavior: The program replaces a number with "Beep!" if the number contains a 1.
-Input: "1"
-Output: "Beep!"
+Behavior: The program replaces a number with "Beep!" if the number contains a 1.  
+Input: "1"  
+Output: "Beep!" 
 
-Behavior: The program replaces a number with "Boop!" if the number contains a 2.
-Input: "2"
-Output: "Boop!"
+Behavior: The program replaces a number with "Boop!" if the number contains a 2.  
+Input: "2"  
+Output: "Boop!"  
 
-Behavior: The program replaces a number with "Won't you be my neighbor?" if the number contains a 3.
-Input: "3"
-Output: "Won't you be my neighbor?"
+Behavior: The program replaces a number with "Won't you be my neighbor?" if the number contains a 3.  
+Input: "3"  
+Output: "Won't you be my neighbor?"  
 
-Behavior: The program replaces number with the highest priority exception for multi-digit numbers.
-Input: "32"
-Output: "Won't you be my neighbor?"
+Behavior: The program replaces number with the highest priority exception for multi-digit numbers.  
+Input: "32"  
+Output: "Won't you be my neighbor?"  
 
 ## Known Bugs
 * No known bugs.   
